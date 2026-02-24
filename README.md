@@ -5,6 +5,9 @@
 ## Sous Windows
 ```.\venv\Scripts\activate```
 
+# Installer les dépendances
+```pip install -r requirements.txt```
+
 # Jouer les migrations de BDD
 ```python manage.py migrate```
 
