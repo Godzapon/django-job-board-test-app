@@ -5,8 +5,14 @@
 ## Sous Windows
 ```.\venv\Scripts\activate```
 
-# Installer les dépendances
+# Installer les dépendances backend
 ```pip install -r requirements.txt```
+
+# Installer les dépendances frontend
+```npm install```
+
+# Build front
+```npm run build:css```
 
 # Jouer les migrations de BDD
 ```python manage.py migrate```
